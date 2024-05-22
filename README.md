@@ -1,4 +1,4 @@
-# javaFullStack_Managment_Jsp
+#Managment_Jsp
 **Project Description:**
 The project involves a basic Java full-stack application where a Management Person can send requests or reports to two departments: the Legal Department and the Finance Department. These departments receive the requests and respond with either approval or denial. The responses from the departments are then updated on the Management site.
 
