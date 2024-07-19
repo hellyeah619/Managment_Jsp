@@ -13,6 +13,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Management Dashboard</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-iMA1HVx9BZCWz47a0ekuOwM/3/ZsRB3XsuV6wlC4YxpP+0RXD/BHofMWEOmly9grT8F08VhG/ra1HgQlUyzWPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="path/to/chakra-ui.css">
 <style>
@@ -137,16 +138,16 @@
                 
                 <div>
                     <h5 class="text-center mb-3" style = "font-size: 20px; margin-left: 50px;">Finance Department</h5>
-                    <div class="text-blue-900 font-semibold" style = "color: blue;"><b>Approved Requests : <%out.println(Fapproved);%> </b></div>
-                    <div class="text-red-700 font-semibold" style = "color: red; margin-top: 10px;"><b>Deny Requests : <%out.println(Fdeny);%></b></div>
-                    <div class="text-green-600 font-semibold"style = "color: green;margin-top: 10px;"><b>Pending Requests : <%out.println(Fpending); %> </b></div>
+                    <div class="text-blue-900 font-semibold" style = "color: blue;"><b><i class="fa-solid fa-check"></i> Approved Requests : <%out.println(Fapproved);%> </b></div>
+                    <div class="text-red-700 font-semibold" style = "color: red; margin-top: 10px;"><b><i class="fa-solid fa-x"></i> Deny Requests : <%out.println(Fdeny);%></b></div>
+                    <div class="text-green-600 font-semibold"style = "color: green;margin-top: 10px;"><b><i class="fa-solid fa-clock"></i> Pending Requests : <%out.println(Fpending); %> </b></div>
                 </div>
                 
                 <div>
                     <h6 class="text-center mb-3" style = "font-size: 20px;margin-left: 50px;">Legal Department</h6>
-                    <div class="text-blue-900 font-semibold" style = "color: blue;"><b>Approved Requests : <%out.println(Lapproved);%> </b></div>
-                    <div class="text-red-700 font-semibold" style = "color: red; margin-top: 10px;"><b>Deny Requests: <%out.println(Ldeny);%></b></div>
-                    <div class="text-green-600 font-semibold"style = "color: green;margin-top: 10px;"><b>Pending Requests: <%out.println(Lpending); %></b></div>
+                    <div class="text-blue-900 font-semibold" style = "color: blue;"><b><i class="fa-solid fa-check"></i> Approved Requests : <%out.println(Lapproved);%> </b></div>
+                    <div class="text-red-700 font-semibold" style = "color: red; margin-top: 10px;"><i class="fa-solid fa-x"></i> <b>Deny Requests: <%out.println(Ldeny);%></b></div>
+                    <div class="text-green-600 font-semibold"style = "color: green;margin-top: 10px;"><b><i class="fa-solid fa-clock"></i> Pending Requests: <%out.println(Lpending); %></b></div>
                 </div>
                 
             </div>
